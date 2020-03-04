@@ -24,6 +24,8 @@ Converting CBOR to JSON
   s.source           = { git: 'https://github.com/hamchapman/tinycbor-pod.git', tag: s.version.to_s }
 
   s.ios.deployment_target = '9.0'
+  s.macos.deployment_target = '10.12'
+  s.tvos.deployment_target = '10.0'
 
   s.source_files = 'tinycbor/src/*.{h,c}'
 
